@@ -52,6 +52,7 @@ function recent_post_style(){
     s += "margin:auto;";
     s += "width:96%;";
     s += "background:#fff;";
+    s += "margin-left: 24px;";
     s += "}";
     s += "</style>";
     document.write(s);
