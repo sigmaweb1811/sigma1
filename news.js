@@ -20,14 +20,6 @@ function recent_post_createEntries(){
         entryObj.href  = getHref(entry.link);
         entriesArr.push(entryObj);
     }
-    return entriesArr;
-}
-function getBlogTitle(){
-    return feed.title.$t;
-}
-function  getBlogURL(){
-    return getHref(feed.link);
-}
 function getHref(links){
     for(var i=0; i<links.length; i++){
         var link = links[i];
