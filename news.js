@@ -72,7 +72,7 @@ function recent_post_content(){
         s += ">" + recent_post_entries.title + "</a>";
         if(i != latest_post-1){s += " | ";}
 	function myFunction() {
-    document.getElementById("myP").style.textAlign = "left";
+    document.getElementById("myP").style.textAlign = "right";
 }
 
     }
