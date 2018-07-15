@@ -8,16 +8,6 @@
  *     close_button
  */
 
-function recent_post_style(){
-    var s = "<style type='text/css'>";
-    s += "#recent_post{";
-    s += "margin:auto;";
-    s += "width:96%;";
-    s += "margin-left: 24px;";
-    s += "}";
-    s += "</style>";
-    document.write(s);
-}
 function recent_post_content(){
     var s = "<div id='recent_post' title='Breaking'>";
     if(info_text){
