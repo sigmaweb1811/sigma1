@@ -71,7 +71,7 @@ function recent_post_content(){
         s += "onmouseover='this.parentNode.stop()' onmouseout='this.parentNode.start()'";
         s += ">" + recent_post_entries.title + "</a>";
         if(i != latest_post-1){s += " | ";}
-	    document.getElementById("myP").style.textAlign = "left";
+	    document.getElementById("myP").style.textAlign = "right";
 
     }
     s += "</marquee>";
