@@ -35,17 +35,6 @@ function getHref(links){
     }
     return null;
 }
-function recent_post_start(json){
-    feed = json.feed;
-    entries = recent_post_createEntries();
-    recent_post_style();
-    recent_post_content();
-}
-function recent_post_text(){
-    var src = feed_url+"?alt=json-in-script&callback=recent_post_start&max-results="+latest_post;
-    var s = "<script src='"+src+"'></script>";
-    document.write(s);
-}
 function recent_post_style(){
     var s = "<style type='text/css'>";
     s += "#recent_post{";
